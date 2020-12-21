@@ -19,8 +19,8 @@
             </figure>
             
                <nav id="headerNav">
-                   <a class="headerNavLink" href="#selection" data-active="true">Hébergement</a>
-                   <a class="headerNavLink" href="#block2" data-active="false">Activités</a>
+                   <a id="hebergement" class="headerNavLink" href="#selection" data-active="true">Hébergement</a>
+                   <a id="activites" class="headerNavLink" href="#block2" data-active="false">Activités</a>
                </nav>
                <a class="headerSignup" href="#">S'inscrire</a>
            
@@ -35,8 +35,8 @@
 
             <div class="recherche">
                 <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
-                <input type="search">
-                <button>Rechercher</button>
+                <input type="search" placeholder="Marseille, France">
+                <button class="searchFormSubmitinputIcon fas fa-search">Rechercher</button>
             </div>
 
             
@@ -86,7 +86,10 @@
 
           <!-- 1 ERE PARTI DE SECTION --> 
           <section id="gauche">
-            <h2 class="text">Hébergement à Marseille</h2>
+            <div class="droitetitre">
+              <h2 class="text">Hébergement à Marseille</h2>
+            </div>
+            
             
             <div id="block">
 
@@ -184,7 +187,7 @@
             		</div>
                
             </div>
-            <p class="text">Afficher plus </p>
+            <p class="droitep">Afficher plus </p>
               
                 </section>
 
@@ -199,24 +202,24 @@
           <!-- 2 EME SECTION -->
           <section id="droite">
           <div class="gauchetitre">
-              <i class="fas fa-chart-line"></i>
               <h2 class="text">Les plus populaire</h2>
+              <i class="fas fa-chart-line"></i>
           </div>
 
           <div>
           
             <div class="image2"> 
               <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
-              <div class="text">
-
+              <div class="block2text">
                    <b>Hotel Le soleil du matin</b>
                    <p>Nuit à partir de 128<b>€</b></p>
-                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                 
+                   <div class="etoilegauche">
+                     <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                     <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                     <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                     <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                     <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                  </div>
               </div>
               
             </div>
@@ -224,28 +227,34 @@
 
             <div class="image2"> 
               <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
-              <div class="text">
+              <div class="block2text">
                   <b>Au coeur de l'eau Chambres d'hotes</b>
                   <p>Nuit à partir de 71<b>€</b></p>
-                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="false" aria-hidden="true"></i>
-           </div>
+                  <div class="etoilegauche">
+                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                   <i class="fas fa-star hostingMainCardGradeIcon" data-active="false" aria-hidden="true"></i>
+                </div>
+              </div>
+                
+           
             </div>
 
 
             <div class="image2"> 
               <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
-              <div class="text">
+              <div class="block2text">
                 <b>Hotel Tout bleu et Blanc</b>
                 <p>Nuit à partir de 68<b>€</b></p>
-                <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
-                <i class="fas fa-star hostingMainCardGradeIcon" data-active="false" aria-hidden="true"></i>
+                <div class="etoilegauche">
+                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true" aria-hidden="true"></i>
+                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="false" aria-hidden="true"></i>
+                </div>
                 </div>
             </div>
 
@@ -258,7 +267,7 @@
 
 
         <section>
-            <h2 class="text"> Activités à Marseille</h2>
+            <h2 class="block2titre"> Activités à Marseille</h2>
             <div id="block2">
                 <figure>
                    <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="object" id="object1" alt="">
@@ -300,24 +309,23 @@
 
 
 
-
     </div>
-        <footer class="text">
+        <footer >
 
-           <div>
+           <div class="footertext">
               <h3>A propos</h3>
               <a href="#"> <p>Fonctionnement du site</p> </a>
               <a href="#"> <p>Conditions générales de vente</p> </a>
               <a href="#"> <p>Données et confidentialité</p> </a>
            </div>
 
-           <div>
+           <div class="footertext">
               <h3>Nos hébergements</h3>
               <a href="#"> <p>Charte qualité</p> </a>
               <a href="#"> <p>Soumettre votre hotel</p> </a>
            </div>
 
-           <div>
+           <div class="footertext">
               <h3>Assistance</h3>
               <a href="#"> <p>Centre d'aide</p> </a>
               <a href="#"> <p>Nous contacter</p> </a>

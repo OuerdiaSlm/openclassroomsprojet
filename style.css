@@ -19,7 +19,6 @@ html, body {
 	height: 100%;
 }
 
-
 #header{
 	display:flex;
 	justify-content: space-between;
@@ -28,7 +27,7 @@ html, body {
 }
 
 #headerImg {
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-bottom: 50px;
 }
 
@@ -36,21 +35,30 @@ html, body {
 	margin-right: 180px;
  	margin-left: -110px;
  	margin-top: 50px;
+}
+
+.headerNavLink:hover {
  	border-top: 2px solid #0065FC;
+ 	padding-top: 50px;
+}
+
+.headerNavLink[data-active="true"] {
+	border-top: 2px solid #0065FC;
+ 	padding-top: 50px;
 }
 
 nav {
 	
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 
 .headerSignup {
 position: absolute;
-margin-left: -180px;
+margin-left: -140px;
 left: 100%;
 top: 0;
-margin-top: 50px;
+margin-top: 60px;
 color: #0065FC;
 font-weight: bold;
 
@@ -59,6 +67,7 @@ font-weight: bold;
 .titre {
 	margin-bottom: 10px;
 	margin-top: 0px;
+	font-weight: bold;
 }
 
 
@@ -77,20 +86,22 @@ button {
 .recherche {
 	margin-top: 30px;
 	margin-bottom: 30px;
-
 }
 
 .recherche input {
 height: 50px;
 width: 220px;
 border: 1px solid #d9dcdd;
+font-weight: bold;
+text-align: center;
+font-size: large;
 }
 
 .recherche i {
 	background-color: #F2F2F2;
 	height: 51px;
 	width: 50px;
-	padding: 15.8px;
+	padding: 17.5px;
 	margin-right: -5px;
 	border-radius: 15px 0px 0px 15px;
 
@@ -195,6 +206,8 @@ span i {
 .gauchetitre {
 	display: flex;
 	justify-content: space-between;
+	margin:30px;
+	margin-bottom: 0px;
 }
 
 
@@ -210,6 +223,17 @@ span i {
 	
 }
 
+.droitetitre {
+	
+	margin:30px;
+	margin-bottom: 0px;
+}
+
+.droitep {
+	margin: 30px;
+	margin-top: 0px;
+}
+
 #block{
 	background-color:#F2F2F2;
 	display:flex;
@@ -222,7 +246,7 @@ span i {
 
   background-color:white;
   margin-top: 13px;
-  margin-bottom: 10.5px;
+  margin-bottom: 19.5px;
   margin-left: 0px;
   margin-right: 0px;
   border: 5px solid white;
@@ -264,16 +288,27 @@ span i {
   border: 10px;
   object-fit: cover;
   border-radius: 10px 0px 0px 10px; 
+ 
 
 }
 
-/*
-.image2 i {
-	display: flex;
-	justify-content: space-around;
-	align-items:flex-end;
+
+.block2text  {
+	display:flex;
+	flex-direction: column;
+	margin: 10px;
+	
+	
 }
-*/
+.etoilegauche {
+	display:flex;
+	flex: 1;
+	align-items: flex-end;
+	
+}
+ 
+
+
 
 .text {
 	margin: 10px;
@@ -292,6 +327,12 @@ h1 {
 	width:100%;
 	justify-content: space-between;
 }
+
+.block2titre {
+	margin:30px;
+	margin-left: 0px;
+}
+
 #block2 figure{
 	width:22%;
 }
@@ -361,19 +402,24 @@ figcaption {
 }
 
 
-
 footer {
 	display: flex;
 	background-color: #F2F2F2;
-	padding: 13px;
-
-
+	padding: 50px;
 
 }
+
+
+
+.footertext p {
+	margin-top: 15px;
+}
+
+
  footer div {
  	margin-right: 200px;
- 	margin-left: 80px;
- 	margin-top: 20px;
+ 	margin-left: 0px;
+ 	margin-top: 0px;
  	text-decoration: none;
  }
 
@@ -383,7 +429,91 @@ footer {
  	
  }
 
- @media screen and (max-height: )
+ @media screen and (max-width:500px){
+
+ 	#marge {
+	padding-right: 5px;
+    padding-left: 5px;
+}
+
+	#header { 
+		display: block;
+		width: 100%;
+		
+		 }
+
+	h1 {
+		color: red;
+		font-size: 15px;
+		width: 100%;
+	}
+		.headerNavLink {
+		margin-right: 0px;
+	 	margin-left: 0px;
+	 	text-align: center;
+
+	}
+
+	nav {
+		
+		margin-top: 0px;
+	}
+
+
+
+	.headerNavLink[data-active="true"] {
+		border-top: 0px ;
+		border-bottom: 2px solid green;
+		width: 50%;
+		float: left;
+
+	}
+
+	.headerNavLink[data-active="false"] {
+		border-bottom: 2px solid grey;
+		width: 50%;
+		float: right;
+		margin-bottom: 50px;
+
+		
+	}
+
+
+	.titre {
+		display: block;
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+
+
+	.recherche {
+		display: flex;
+	}
+
+	button {
+		
+	}	
+
+
+
+	.filtresflex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.filtresflex div {
+			display: flex;
+		flex-wrap: wrap;
+	}
+
+	#selection{
+	display:flex;
+	flex-wrap: wrap;
+	}
+
+	
+
+ }
 
 
 
