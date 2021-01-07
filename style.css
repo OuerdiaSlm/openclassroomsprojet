@@ -156,6 +156,8 @@ font-size: large;
 	
 }
 
+.filtresflex div:hover  { transform: scale(1.1); background-color: #deebff69;     }
+
 .filtresflex h3 {
 	margin-right: 30px;
 }
@@ -338,6 +340,8 @@ h1 {
 	width:100%;
 	justify-content: space-between;
 }
+
+#block2 figure:hover  { transform: scale(1.1);      }
 
 .block2titre {
 	
