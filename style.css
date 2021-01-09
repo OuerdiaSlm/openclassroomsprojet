@@ -84,7 +84,7 @@ button {
 
 button span {
 	font-family: "Raleway", sans-serif; 
-	font-weight: bolds;
+	font-weight: bold;
 }
 .recherche {
 	margin-top: 30px;
@@ -634,15 +634,22 @@ footer {
 
 	#block2 figure{
 	width:100%;
-	 margin: 20px;
+	margin: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 
 #block2 figure figure {
-    margin-bottom: 0px;
+   margin-bottom: 0px;
    margin: 0px;
    margin-bottom: 20px;
-
 }
+
+.frioul {
+	margin-bottom: -20px;
+}
+
 
 #object1 {
 	height: 150px;
