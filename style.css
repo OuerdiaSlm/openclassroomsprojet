@@ -35,6 +35,8 @@ html, body {
 	margin-right: 180px;
  	margin-left: -110px;
  	margin-top: 50px;
+ 	padding-left: 20px;
+ 	padding-right: 20px; 
 }
 
 .headerNavLink:hover {
@@ -45,7 +47,18 @@ html, body {
 .headerNavLink[data-active="true"] {
 	border-top: 2px solid #0065FC;
  	padding-top: 50px;
+ 	color: #0065FC;
 }
+.headerNavLink[data-active="false"] {
+ 	
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ 	margin-left: -190px;
+}
+
+#activites {
+    margin-right: 104px;
+    }
 
 nav {
 	
