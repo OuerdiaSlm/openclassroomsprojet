@@ -432,7 +432,7 @@ footer {
 	content:"";
 }
 }
-/* ...............................DEBUT POUR TELEPHONE..................................*/
+/* ...............................VERSION TELEPHONE..................................*/
 
 
 @media screen and (max-width:500px){
@@ -459,14 +459,13 @@ footer {
 		font-size: 25px;
 		width: 100%;
 	}
-		.headerNavLink {
+	.headerNavLink {
 		margin-right: 0px;
 	 	margin-left: 0px;
 	 	text-align: center;
 	}
 
 	nav {
-		
 		margin-top: 0px;
 	}
 
@@ -481,6 +480,16 @@ footer {
 		width: 50%;
 		float: left;
 		padding-top: 0px;
+	}
+
+	.headerNavLink[data-active="false"] {
+ 		padding-left: 0px;
+ 		padding-right: 0px;
+ 		margin-left: 0px;
+	}
+
+	#activites {
+		margin-right: 0px;
 	}
 
 	.headerNavLink[data-active="false"] {
