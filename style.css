@@ -7,7 +7,6 @@
 body {
  	background-color: white; 
  	font-family: "Raleway", sans-serif; 
-
 }
 
 #marge {
@@ -58,11 +57,10 @@ html, body {
 }
 
 #activites {
-   margin-right: 104px;
+    margin-right: 104px;
  }
 
 nav {
-	
 	margin-top: 60px;
 }
 
@@ -85,14 +83,14 @@ header .headerSignup {
 
 
 button {
-   background-color: #0065FC;
-   color: white;
-   height: 48.9px;
-   width: 140px;
-   margin-left: -6px;
-   border-radius: 0px 15px 15px 0px;
-   border-style: none;
-   font-size: 15px;
+    background-color: #0065FC;
+    color: white;
+    height: 48.9px;
+    width: 140px;
+    margin-left: -6px;
+    border-radius: 0px 15px 15px 0px;
+    border-style: none;
+    font-size: 15px;
 }
 
 button span {
@@ -117,13 +115,13 @@ button span {
 }
 
 .recherche i {
-   background-color: #F2F2F2;
-   height: 50px;
-   width: 50px;
-   padding: 17px;
-   margin-right: -5px;
-   border-radius: 15px 0px 0px 15px;
-   text-align: center;
+    background-color: #F2F2F2;
+    height: 50px;
+    width: 50px;
+    padding: 17px;
+    margin-right: -5px;
+    border-radius: 15px 0px 0px 15px;
+    text-align: center;
 }
 
 
@@ -147,7 +145,6 @@ button span {
 }
 
 
-
 .filtresflex {
 	display: flex;
 	margin-top: 30px;
@@ -167,7 +164,10 @@ button span {
 	align-items: center;
 }
 
-.filtresflex div:hover  { transform: scale(1.1); background-color: #deebff69;}
+.filtresflex div:hover  { 
+	transform: scale(1.1); 
+	background-color: #deebff69;
+}
 
 .filtresflex h3 {
 	margin-right: 30px;
@@ -181,16 +181,16 @@ button span {
 
 
 span:not(#search){
-   border-radius: 50%;
-   padding: 18px;
+    border-radius: 50%;
+    padding: 18px;
 	color: #0065FC;
 	background-color: #deebff;
 	min-height: 3.3rem;
-   min-width: 3.3rem;
-   height: 3rem;
-   width: 3rem;
-   display: inline-block;
-   margin: -2px;
+    min-width: 3.3rem;
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
+    margin: -2px;
 
 }
 
@@ -252,23 +252,23 @@ span i {
 }
 
 .image{
-  background-color:white;
-  margin-top: 13px;
-  margin-bottom: 19.5px;
-  margin-left: 0px;
-  margin-right: 0px;
-  border: 5px solid white;
-  border-radius: 13px;
-  box-shadow:  0px 0px 10px  grey ;
+    background-color:white;
+    margin-top: 13px;
+    margin-bottom: 19.5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 5px solid white;
+    border-radius: 13px;
+    box-shadow:  0px 0px 10px  grey ;
 }
 
 .image:hover  { transform: scale(1.1);}
 
 .image img{
-  width:239px;
-  height: 110px;
-  border-radius: 10px 10px 0px 0px;
-  object-fit: cover;
+    width:239px;
+    height: 110px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
 
@@ -281,24 +281,24 @@ span i {
 }
 
 .image2{
-  width:auto; 
-  background-color:white;
-  display:flex;
-  margin:30px;
-  border: 5px  solid white;
-  box-shadow:  0px 0px 10px  #c3c8cb ;
-  border-radius: 13px;
+    width:auto; 
+    background-color:white;
+    display:flex;
+    margin:30px;
+    border: 5px  solid white;
+    box-shadow:  0px 0px 10px  #c3c8cb ;
+    border-radius: 13px;
 }
 
 .image2:hover  { transform: scale(1.1);}
 
 
 .image2 img{
-  width:120px;
-  height: 130px;
-  border: 10px;
-  object-fit: cover;
-  border-radius: 10px 0px 0px 10px; 
+	width:120px;
+    height: 130px;
+    border: 10px;
+	object-fit: cover;
+	border-radius: 10px 0px 0px 10px; 
 }
 
 
@@ -397,7 +397,7 @@ figcaption {
 	box-shadow:  0px 0px 10px  #c3c8cb ;
 	position: relative;
 	z-index: 2;
-   margin-top: -5px;
+    margin-top: -5px;
 }
 
 
@@ -419,7 +419,7 @@ footer {
  	margin-left: 0px;
  	margin-top: 0px;
  	text-decoration: none;
- }
+}
 
  a {
  	text-decoration: none;
@@ -428,18 +428,180 @@ footer {
 
 
 @media only screen and (min-width:500px) {
-.fas.fa-search::before {
-	content:"";
+	.fas.fa-search::before {
+		content:"";
+	}
 }
-}
-/* ...............................VERSION TELEPHONE..................................*/
 
 
-@media screen and (max-width:500px){
+
+/* ...............................VERSION TABLETTE..................................*/
+
+
+@media screen and (max-width:1500px)and (min-width:600px){
+
 
  	#marge {
 		padding-right: 10px;
-	   padding-left: 10px;
+	    padding-left: 10px;
+	}
+
+
+	.filtresflex h3 {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.filtresflex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.filtresflex div {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 5px;
+		margin-right: 10px;
+	}
+
+	span {
+		padding: 15px;
+		min-height: 3rem;
+		min-width: 3rem;
+	}
+
+
+	.information i {
+	    width: 40px;
+	    margin-right: 0rem;
+	}
+
+	#selection{
+		display:flex;
+		flex-wrap: wrap;
+	}
+
+	#block div {
+		width: 30%;
+		padding: 0px;
+	}
+
+	#block div div {
+		width: 100%;
+		padding: 0px;
+	}
+
+	#droite {
+		width: 100%;
+		margin-left: 0px;
+		border-radius: 0px;
+	}
+
+	.image2 {
+	    margin: 15px;
+	}
+
+
+	#gauche {
+		width: 100%;
+		background-color: white;
+		order: 2;
+		flex-wrap: wrap;
+	}
+
+	.image {
+		width: 50%;
+		box-shadow: 0px 0px 10px #cacaca;
+		margin-bottom: 3px;
+		justify-content: space-between;
+		width:239px;
+	}
+
+	.image img {
+		width: 100%;
+	}
+
+	.droitetitre {
+   		margin: 0px;
+	}
+
+/* ...............................BLOCK2 tablette.................................*/
+
+	#block2 {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#block2 figure{
+		width:100%;
+		margin: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#block2 figure figure {
+	    margin-bottom: 0px;
+	    margin: 0px;
+	    margin-bottom: 20px;
+	}
+
+	.frioul {
+		margin-bottom: -20px;
+	}
+
+	#object1 {
+		height: 150px;
+	}
+
+	#object2 {
+		height: 150px;
+	}
+
+	#object3 {
+		height: 150px;
+	}
+
+	#object4 {
+		height: 150px;
+	}
+
+	#object5 {
+		height: 150px;
+	}
+
+	#object6 {
+		height: 150px;
+	}
+
+	
+	footer {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 20px;
+		padding-top: 0px;
+
+	}
+
+	 footer div {
+ 		margin-right: 100px;
+ 	}
+
+ 	.footertext h3 {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+/* ...............................VERSION TELEPHONE..................................*/
+
+@media screen and (max-width:600px) and (min-width: 60px){
+
+ 	#marge {
+		padding-right: 10px;
+	    padding-left: 10px;
 	}
 
 	span#search{
@@ -514,9 +676,9 @@ footer {
 	}	
 
 	button {
-   	width: 50px;
-   	border-radius: 15px;
-   	margin-left: -10px;
+   		width: 50px;
+   		border-radius: 15px;
+   		margin-left: -10px;
  	}	
 
 	.filtresflex h3 {
@@ -545,8 +707,8 @@ footer {
 
 
 	.information i {
-	   width: 40px;
-	   margin-right: 0rem;
+	    width: 40px;
+	    margin-right: 0rem;
 	}
 
 	#selection{
@@ -561,15 +723,14 @@ footer {
 	}
 
 	.image2 {
-	   margin: 15px;
+	    margin: 15px;
 	}
 
 	#droite i {
-	   text-align: center;
+	    text-align: center;
 	}
 
 	#block {
-		justify-content: space-between;
 		background-color: white;
 		width: 100%;
 		padding: 0px;
@@ -578,8 +739,8 @@ footer {
 	.droitep {
     	margin: 0px;
     	margin-top: 20px;
-  	   margin-bottom: 20px;
-}
+  	    margin-bottom: 20px;
+	}
 
 	#gauche {
 		width: 100%;
@@ -598,7 +759,7 @@ footer {
 	}
 
 	.droitetitre {
-   	margin: 0px;
+   		margin: 0px;
 	}
 
 /* ...............................BLOCK2 PHONE.................................*/
@@ -651,31 +812,20 @@ footer {
 
 	
 	footer {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 20px;
-	padding-top: 0px;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 20px;
+		padding-top: 0px;
 
 	}
 
 	 footer div {
- 	margin-right: 100px;
+ 		margin-right: 100px;
  	}
 
  	.footertext h3 {
-	margin-top: 40px;
-	margin-bottom: 20px;
+		margin-top: 40px;
+		margin-bottom: 20px;
 	}
 
-
 }
-
-
-
-
-
-
-
-
-
-
