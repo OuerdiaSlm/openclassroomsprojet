@@ -164,9 +164,25 @@ button span {
 	align-items: center;
 }
 
-.filtresflex div:hover  { 
-	transform: scale(1.1); 
+
+
+.filtresflex div:hover { 
 	background-color: #deebff69;
+	cursor: pointer;
+	transform: scale(1);
+	transition-property: transform;
+	transition-duration: 500ms;
+	transform:scale(1.15);
+}
+.filtresflex div { 
+	cursor: pointer;
+	transform: scale(1);
+	transition-property: transform;
+	transition-duration: 500ms;
+	& hover {
+	background-color: #deebff69;
+	transform:scale(1.15);
+}
 }
 
 .filtresflex h3 {
@@ -262,7 +278,13 @@ span i {
     box-shadow:  0px 0px 10px  grey ;
 }
 
-.image:hover  { transform: scale(1.1);}
+.image:hover { 
+	cursor: pointer;
+	transform: scale(0.5);
+	transition-property: transform;
+	transition-duration: 500ms;
+	transform:scale(1.1);
+}
 
 .image img{
     width:239px;
@@ -290,7 +312,13 @@ span i {
     border-radius: 13px;
 }
 
-.image2:hover  { transform: scale(1.1);}
+.image2:hover { 
+	cursor: pointer;
+	transform: scale(1);
+	transition-property: transform;
+	transition-duration: 500ms;
+	transform:scale(1.1);
+}
 
 
 .image2 img{
@@ -330,7 +358,13 @@ h1 {
 	justify-content: space-between;
 }
 
-#block2 figure:hover  { transform: scale(1.1);}
+#block2 figure:hover {
+	cursor: pointer; 
+	transform: scale(1);
+	transition-property: transform;
+	transition-duration: 500ms;
+	transform:scale(1.1);
+}
 
 .block2titre {
 	margin:30px;
