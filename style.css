@@ -165,7 +165,6 @@ button span {
 }
 
 
-
 .filtresflex div:hover { 
 	background-color: #deebff69;
 	cursor: pointer;
@@ -174,16 +173,7 @@ button span {
 	transition-duration: 500ms;
 	transform:scale(1.15);
 }
-.filtresflex div { 
-	cursor: pointer;
-	transform: scale(1);
-	transition-property: transform;
-	transition-duration: 500ms;
-	& hover {
-	background-color: #deebff69;
-	transform:scale(1.15);
-	}
-}
+
 
 .filtresflex h3 {
 	margin-right: 30px;
@@ -193,7 +183,6 @@ button span {
 	margin: 10px;
 	margin-right: 15px;
 }
-
 
 
 span:not(#search){
@@ -216,7 +205,6 @@ span i {
 
 #selection{
 	display:flex;
-
 }
 
 #gauche {
@@ -236,8 +224,6 @@ span i {
 	align-items: center;
 }
 
-.gauchetitre i {
-}
 
 #droite {
 	width: 33%;
