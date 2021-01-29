@@ -458,7 +458,7 @@ footer {
 /* ...............................VERSION TABLETTE..................................*/
 
 
-@media screen and (max-width:1500px)and (min-width:600px){
+@media screen and (max-width:1350px)and (min-width:600px){
 
 
  	#marge {
@@ -561,7 +561,6 @@ footer {
 	}
 
 	#block2 figure figure {
-	    margin-bottom: 0px;
 	    margin: 0px;
 	    margin-bottom: 20px;
 	}
@@ -849,3 +848,4 @@ footer {
 	}
 
 }
+
